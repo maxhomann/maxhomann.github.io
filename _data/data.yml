@@ -79,12 +79,13 @@ education:
     details: |
       Eine allgemeine schulische Ausbildung in einem breiten Feld von Mathematik über Datenbanken und Netzwerke bis hin
       zum Programmieren mit anschließendem Praktikum.
+
 experiences:
   - role: DevOps Engineer
     time: 2020 - Heute
     company: ITU consult GmbH, Wendhausen
     details: |
-      Angefangen habe ich bei der ITUC mit Projekt "Funnybones & Lazylegs" (siehe Projekte).
+      Bei der ITUC habe ich das Projekt "Funnybones & Lazylegs" fortgeführt (siehe Projekte).
       Innerhalb der ersten Monate habe ich neben dem Hauptprojekt das interne Projekt "Tarantula" begonnen,
       mit dem Ziel die interne Kommunikation effizienter zu gestalten. Mitte 2021 bin ich dann in das Projekt "Firestarter"
       gewechselt, an dem ich bis heute arbeite.
@@ -97,62 +98,60 @@ experiences:
       Kubernetes Cluster auf mehreren KVMs aufgesetzt habe und dadurch schnell gefallen an Serverkonfiguration gefunden habe.
       2019 wurde ich dann zu einem Teil meiner Zeit in die Reihen der internen Buildmanager aufgenommen, welche die
       Buildinfrastruktur verwalteten. Dort habe ich mich dafür eingesetzt, in jedem Team einen Buildmanager auszubilden,
-      um das Wissen und die Last zu verteilen. Außerdem habe ich die Serverkonfiguration auf Ansible umgestellt, um die vielen
-      verschiedenen Konfigurationsstände der Agents und manuellen Aufwände weiter zu reduzieren.
+      um das Wissen und die Last zu verteilen. Außerdem habe ich die gesamte Serverkonfiguration auf Ansible umgestellt,
+      um die vielen verschiedenen Konfigurationsstände der Agents und manuellen Aufwände weiter zu reduzieren (Projekt "Automaton").
   - role: Studentische Hilfskraft
     time: 2017 - 2018
     company: Institut für Computergraphik, Technische Universität Braunschweig
     details: |
       Implementierung des experimentellen ADRE (Apparent Display Resolution Enhancement) Algorithmus (Stengel et al., 2013),
-      welcher die wahrgenommene Bildschärfe durch geschickte Frame-Versätze erhöhen soll.
+      welcher die wahrgenommene Bildschärfe durch geschickte Frame-Versätze erhöhen kann.
+
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects or open source libraries in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-    - title: Velocity
-      link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: Firestarter
+    tagline: Verteiltes System mit Single Page Application zur Prozessabbildung der Typzulassung von Fahrzeugen
+    details: |
+      Die verschiedenen Systeme und der halbautomatische Prozess der Typzulassung sollte in dieser Anwendung konzernweit
+      vereinheitlicht werden. Als crossfunktionaler Entwickler habe ich mich neben der Entwicklung um die Abstimmung und das Design
+      der REST APIs gekümmert. Außerdem habe ich mich für den Austausch und die Zusammenarbeit zwischen Scrum Mastern,
+      Entwicklern, Architekten, Geschäftsführung und Projektleitung eingesetzt.
 
-    - title: DevStudio
-      link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
+      Um die Feedbackintervalle zu verkürzen, entwarf ich ein Versionierungs- und Deploymentkonzept und setzte es mit dem Team
+      um.
 
-    - title: Tempo
-      link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-    - title: Atom
-      link: "#"
-      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Tarantula
+    tagline: Bereitstellung von statischen Informationen in einem Intranet
+    details: |
+      Aufgrund von Corona stand die Organisation vor einem neuen Problem: die Isolation der Mitarbeiter im HomeOffice.
+      Um grundlegende Informationen möglichst ohne Hürden oder Aufwand bereitzustellen, habe ich verschiedenste Intranet
+      Frameworks, Content Management Systeme, Website-Builder und -Generators evaluiert und anschließend ein Intranet aufgebaut
+      und gehostet. Zusammen mit anderen Mitstreitern haben wir grundlegende Informationen der internen Angelegenheiten und
+      Prozesse zusammengetragen und im Intranet veröffentlicht.
 
-    - title: Delta
-      link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: Automaton
+    tagline: Umstellung auf Infrastructure as Code der Bambooinstanzen
+    details: |
+      Die Buildinfrastruktur basierte auf vielen, von verschiedenen Personen manuell eingerichteten Bamboo Agents und
+      musste dauerhaft gewartet werden, um mit Fehlern und Updates mitzuhalten. Da wir für das Buildmanagement nur einen
+      Teil unserer Zeit bekommen haben und die Aufwände immer größer wurden, habe ich eigenverantwortlich verschiedene
+      Infrastructure as Code Frameworks evaluiert und anschließend die Umstellung auf Ansible begonnen. In Zusammenarbeit
+      mit den Administratoren habe ich die Bambooinstanzen in die bestehende Proxmox IaC Umgebung eingefügt und stetig ausgebaut.
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-    - title: The Art of Computer Programming
-      link: "#"
-      authors: Donald E. Knuth
-      conference: Addison-Wesley, 1968
-
-    - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-      link: "#"
-      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-    - title: A syntax directed compiler for Algol 60
-      link: "#"
-      authors: Edgar T. Irons
-      conference: "Comm. ACM 4 (1961), 51–55"
+  - title: Funnybones & Lazylegs
+    tagline: Ein verteiltes System mit Single Page Application um fehlende Steuergerätesoftware für die Produktion von Autos frühzeitig zu erkennen.
+    details: |
+      In diesem Projekt bin ich nach meinem Studium in direktem Kontakt mit Docker, Kubernetes und Microservice Architekturen gekommen.
+      Um das Projekt auf einer produktionsnahen Umgebung auszuprobieren, habe ich zuerst einen bare-metal Kubernetes Cluster
+      eingerichtet und anschließend administriert. Damit möglichst schnell neue Entwicklungsstände auf dieser Instanz ausprobiert
+      werden können, habe ich die Bamboo, Bitbucket und SonarQube Buildinfrastruktur für Continuous Deployments konfiguriert.
+      Aufgrund der hohen algorithmischen Komplexität der fachlichen Anforderungen, haben wir kontinuierlich mit AsciiDoc und PlantUml an der
+      Architektur- als auch Entwicklerdokumentation gearbeitet und diese als Website gehostet. In diesem crossfunktionalen
+      Team haben wir auch die Testsuite immer weiter verfeinert und ausgebaut. Uns war bewusst, dass die Qualität der Tests
+      genauso wichtig ist, wie der Produktivcode, weshalb wir nach Unit und Integrationstests auch End-to-End Tests und
+      Systemtests eingeführt haben. Außerdem haben wir mit der Zeit sämtliche Anwendungsinstanzen übernommen und eigenverantwortlich
+      betrieben. Darüber hinaus haben wir als Team zusätzlich die Anforderungsanalyse betrieben und mit dem Kunden
+      die Algorithmen spezifiziert.
 
 skills:
   title: "Aktuelle Hard-Skills"
@@ -194,6 +193,12 @@ skills:
       level: 84%
     - name: JavaScript :(
       level: 0%
+    - name: Der SCRUM Methodenkoffer
+      level: 76%
+    - name: SonarQube
+      level: 87%
+    - name: REST API Design
+      level: 72%
 
 footer: >
   Base template by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
