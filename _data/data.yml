@@ -109,7 +109,7 @@ experiences:
 
 projects:
   - title: Firestarter
-    tagline: Verteiltes System mit Single Page Application zur Prozessabbildung der Typzulassung von Fahrzeugen
+    tagline: Verteiltes System mit Single Page Application zur Prozessabbildung der Typzulassung von Fahrzeugen.
     details: |
       Die verschiedenen Systeme und der halbautomatische Prozess der Typzulassung sollte in dieser Anwendung konzernweit
       vereinheitlicht werden. Als crossfunktionaler Entwickler habe ich mich neben der Entwicklung um die Abstimmung und das Design
@@ -121,7 +121,7 @@ projects:
 
 
   - title: Tarantula
-    tagline: Bereitstellung von statischen Informationen in einem Intranet
+    tagline: Bereitstellung von statischen Informationen in einem Intranet.
     details: |
       Aufgrund von Corona stand die Organisation vor einem neuen Problem: die Isolation der Mitarbeiter im HomeOffice.
       Um grundlegende Informationen möglichst ohne Hürden oder Aufwand bereitzustellen, habe ich verschiedenste Intranet
@@ -130,7 +130,7 @@ projects:
       Prozesse zusammengetragen und im Intranet veröffentlicht.
 
   - title: Automaton
-    tagline: Umstellung auf Infrastructure as Code der Bambooinstanzen
+    tagline: Umstellung auf Infrastructure as Code der Bambooinstanzen.
     details: |
       Die Buildinfrastruktur basierte auf vielen, von verschiedenen Personen manuell eingerichteten Bamboo Agents und
       musste dauerhaft gewartet werden, um mit Fehlern und Updates mitzuhalten. Da wir für das Buildmanagement nur einen
