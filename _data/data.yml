@@ -44,13 +44,13 @@ sidebar:
 career-profile:
   title: Hello there o/
   summary: |
-    Im Herzen bin ich ein Entwickler, beschränke mich aber nicht nur auf Code. Conway's Law trifft oft zu und deshalb
-    kann ich es auch nicht lassen, die zugrundeliegenden Prozesse der Software und Organisation zu hinterfragen.
-    Ich stehe für vollumfängliche Herangehensweisen und Lösungen.
+    Ich bin Maximilian Homann und im Herzen ein Entwickler, aber ich beschränke mich nicht nur auf Code.
+    Das Gesetz von Conway trifft oft zu und deshalb kann ich es auch nicht lassen, die zugrundeliegenden
+    Prozesse der Software und Organisation zu hinterfragen. Ich stehe für vollumfängliche Herangehensweisen und Lösungen.
 
-    Offene Wertschätzung und Kommunikation, Fehler nicht zu scheuen sondern zum lernen zu nutzen, effiziente
-    Organisationsmodelle und besonders Spaß bei der Arbeit sind mir sehr wichtig. Diese Kultur versuche ich zu fördern,
-    indem ich mich eigentständig einbringe, weiterentwickle und motiviere, statt zu missionieren.
+    Offene Wertschätzung und transparente Kommunikation, Fehler nicht zu scheuen sondern zum Lernen zu nutzen und
+    besonders Spaß bei der Arbeit sind mir sehr wichtig. Diese Kultur versuche ich zu fördern,
+    indem ich mich eigentständig einbringe, weiterentwickle und motiviere, aber nicht missioniere.
 
     Mein aktuelles Ziel ist es, Projekte zu entwickeln, die nachhaltig sind und einen tatsächlichen Nutzen für
     Gesellschaft oder Umwelt haben.
@@ -85,21 +85,23 @@ experiences:
     time: 2020 - Heute
     company: ITU consult GmbH, Wendhausen
     details: |
-      Bei der ITUC habe ich das Projekt "Funnybones & Lazylegs" fortgeführt (siehe Projekte).
-      Innerhalb der ersten Monate habe ich neben dem Hauptprojekt das interne Projekt "Tarantula" begonnen,
+      Bei der ITUC habe ich weiter am Projekt "Funnybones & Lazylegs" gearbeitet (siehe Projekte) und außerdem
+      innerhalb der ersten Monate als zusätzliches Engagement das interne Projekt "Tarantula" begonnen,
       mit dem Ziel die interne Kommunikation effizienter zu gestalten. Mitte 2021 bin ich dann in das Projekt "Firestarter"
       gewechselt, an dem ich bis heute arbeite.
+
   - role: DevOps Engineer, Buildmanager
     time: 2018 - 2020
     company: ckc AG (später CGI Deutschland), Braunschweig
     details: |
       Direkt nach meinem Studium habe ich bei der ckc die Chance bekommen, mich als Berufseinsteiger im Projekt "Funnybones & Lazylegs"
-      voll zu entfalten und auszutoben. Das hatte den Effekt, dass ich innerhalb der ersten 6 Monate einen bare-metal
-      Kubernetes Cluster auf mehreren KVMs aufgesetzt habe und dadurch schnell gefallen an Serverkonfiguration gefunden habe.
-      2019 wurde ich dann zu einem Teil meiner Zeit in die Reihen der internen Buildmanager aufgenommen, welche die
-      Buildinfrastruktur verwalteten. Dort habe ich mich dafür eingesetzt, in jedem Team einen Buildmanager auszubilden,
-      um das Wissen und die Last zu verteilen. Außerdem habe ich die gesamte Serverkonfiguration auf Ansible umgestellt,
-      um die vielen verschiedenen Konfigurationsstände der Agents und manuellen Aufwände weiter zu reduzieren (Projekt "Automaton").
+      voll zu entfalten und auszutoben. Das hatte den Effekt, dass ich schnell gefallen an Serverkonfiguration und
+      dem Infrastrukturaufbau gefunden habe.
+
+      2019 wurde ich dann neben meiner Arbeit am Hauptprojekt zu einem Teil meiner
+      Zeit in die Reihen der internen Buildmanager aufgenommen, welche die Buildinfrastruktur verwalteten. Dort habe ich
+      mich für den Wissensaustausch eingesetzt und die gesamte Serverkonfiguration auf Ansible umgestellt (Projekt "Automaton").
+
   - role: Studentische Hilfskraft
     time: 2017 - 2018
     company: Institut für Computergraphik, Technische Universität Braunschweig
@@ -109,27 +111,28 @@ experiences:
 
 projects:
   - title: Firestarter
+    industry: Automotive
     tagline: Verteiltes System mit Single Page Application zur Prozessabbildung der Typzulassung von Fahrzeugen.
     details: |
       Die verschiedenen Systeme und der halbautomatische Prozess der Typzulassung sollte in dieser Anwendung konzernweit
-      vereinheitlicht werden. Als crossfunktionaler Entwickler habe ich mich neben der Entwicklung um die Abstimmung und das Design
-      der REST APIs gekümmert. Außerdem habe ich mich für den Austausch und die Zusammenarbeit zwischen Scrum Mastern,
-      Entwicklern, Architekten, Geschäftsführung und Projektleitung eingesetzt.
+      vereinheitlicht werden. Als crossfunktionaler Entwickler habe ich mich neben der Entwicklung der Spring Boot basierenden
+      Microservices auf Java 11 um die Abstimmung und das Design der REST APIs gekümmert.
 
-      Um die Feedbackintervalle zu verkürzen, entwarf ich ein Versionierungs- und Deploymentkonzept und setzte es mit dem Team
-      um.
-
+      Außerdem habe ich mich für den Austausch und die Zusammenarbeit zwischen Scrum Mastern, Entwicklern, Architekten,
+      Geschäftsführung und Projektleitung eingesetzt. Um die Feedbackintervalle zu verkürzen, entwarf ich ein
+      Versionierungs- und Deploymentkonzept und setzte es mit dem Team um.
 
   - title: Tarantula
+    industry: Intern
     tagline: Bereitstellung von statischen Informationen in einem Intranet.
     details: |
-      Aufgrund von Corona stand die Organisation vor einem neuen Problem: die Isolation der Mitarbeiter im HomeOffice.
       Um grundlegende Informationen möglichst ohne Hürden oder Aufwand bereitzustellen, habe ich verschiedenste Intranet
-      Frameworks, Content Management Systeme, Website-Builder und -Generators evaluiert und anschließend ein Intranet aufgebaut
-      und gehostet. Zusammen mit anderen Mitstreitern haben wir grundlegende Informationen der internen Angelegenheiten und
-      Prozesse zusammengetragen und im Intranet veröffentlicht.
+      Frameworks, Content Management Systeme, Website-Builder und -Generators evaluiert und anschließend ein Intranet
+      basierend auf dem Markdown-Renderer Docsify aufgebaut und gehostet. Zusammen mit anderen Mitstreitern haben wir
+      grundlegende Informationen der internen Angelegenheiten und Prozesse zusammengetragen und dort veröffentlicht.
 
   - title: Automaton
+    industry: Intern
     tagline: Umstellung auf Infrastructure as Code der Bambooinstanzen.
     details: |
       Die Buildinfrastruktur basierte auf vielen, von verschiedenen Personen manuell eingerichteten Bamboo Agents und
@@ -138,67 +141,84 @@ projects:
       Infrastructure as Code Frameworks evaluiert und anschließend die Umstellung auf Ansible begonnen. In Zusammenarbeit
       mit den Administratoren habe ich die Bambooinstanzen in die bestehende Proxmox IaC Umgebung eingefügt und stetig ausgebaut.
 
+      Außerdem habe ich mich dafür eingesetzt, in jedem Projektteam einen Buildmanager auszubilden, um das Wissen und die Last
+      der Projektkonfigurationen zu verteilen.
+
   - title: Funnybones & Lazylegs
+    industry: Automotive
     tagline: Ein verteiltes System mit Single Page Application um fehlende Steuergerätesoftware für die Produktion von Autos frühzeitig zu erkennen.
     details: |
-      In diesem Projekt bin ich nach meinem Studium in direktem Kontakt mit Docker, Kubernetes und Microservice Architekturen gekommen.
-      Um das Projekt auf einer produktionsnahen Umgebung auszuprobieren, habe ich zuerst einen bare-metal Kubernetes Cluster
+      In diesem Projekt bin ich nach meinem Studium in direktem Kontakt mit Docker, Kubernetes und Microservice Architekturen
+      auf Basis von Spring Boot gekommen. Um das Projekt auf einer produktionsnahen Umgebung auszuprobieren, habe ich zuerst einen bare-metal Kubernetes Cluster
       eingerichtet und anschließend administriert. Damit möglichst schnell neue Entwicklungsstände auf dieser Instanz ausprobiert
       werden können, habe ich die Bamboo, Bitbucket und SonarQube Buildinfrastruktur für Continuous Deployments konfiguriert.
+
       Aufgrund der hohen algorithmischen Komplexität der fachlichen Anforderungen, haben wir kontinuierlich mit AsciiDoc und PlantUml an der
-      Architektur- als auch Entwicklerdokumentation gearbeitet und diese als Website gehostet. In diesem crossfunktionalen
+      Architektur- als auch Entwicklerdokumentation gearbeitet (Documentation as Code) und diese als Website gehostet. In diesem crossfunktionalen
       Team haben wir auch die Testsuite immer weiter verfeinert und ausgebaut. Uns war bewusst, dass die Qualität der Tests
       genauso wichtig ist, wie der Produktivcode, weshalb wir nach Unit und Integrationstests auch End-to-End Tests und
-      Systemtests eingeführt haben. Außerdem haben wir mit der Zeit sämtliche Anwendungsinstanzen übernommen und eigenverantwortlich
+      Systemtests eingeführt haben.
+
+      Außerdem haben wir mit der Zeit sämtliche Anwendungsinstanzen übernommen und eigenverantwortlich
       betrieben. Darüber hinaus haben wir als Team zusätzlich die Anforderungsanalyse betrieben und mit dem Kunden
       die Algorithmen spezifiziert.
 
 skills:
-  title: "Aktuelle Hard-Skills"
+  title: "Aktuelle Skills"
 
   toolset:
-    - name: Java
+    - name: Java 8 & 11
       level: 95%
-    - name: "C++"
-      level: 37%
-    - name: Python
-      level: 40%
-    - name: Ansible
-      level: 40%
     - name: JSON & YAML & CSV & XML
       level: 90%
+    - name: Maven
+      level: 90%
+    - name: AsciiDoc und PlantUML
+      level: 90%
+    - name: SonarQube
+      level: 90%
+    - name: Docker
+      level: 85%
+    - name: Spring Boot, JPA und MVC
+      level: 85%
+    - name: JUnit 4 & 5
+      level: 85%
+    - name: Bamboo
+      level: 75%
+    - name: Der SCRUM Methodenkoffer
+      level: 75%
+    - name: Docsify
+      level: 75%
+    - name: Bitbucket
+      level: 70%
+    - name: REST API Design
+      level: 70%
+    - name: Kubernetes
+      level: 70%
+    - name: Confluence, Jira
+      level: 60%
+    - name: Ansible
+      level: 50%
     - name: MongoDB
       level: 40%
     - name: MariaDB
       level: 40%
+    - name: "C++"
+      level: 35%
     - name: SQL
       level: 35%
-    - name: Maven
-      level: 90%
-    - name: Docker
-      level: 75%
-    - name: Bamboo
-      level: 72%
-    - name: Kubernetes
-      level: 60%
+    - name: Rabbit MQ
+      level: 35%
+    - name: Redis
+      level: 35%
+    - name: Python
+      level: 30%
     - name: Proxmox
       level: 30%
-    - name: Confluence, Jira
-      level: 61%
-    - name: Bitbucket
-      level: 67%
-    - name: Spring Boot, JPA und MVC
-      level: 78%
-    - name: AsciiDoc und PlantUML
-      level: 84%
+    - name: Gradle
+      level: 25%
     - name: JavaScript :(
       level: 0%
-    - name: Der SCRUM Methodenkoffer
-      level: 76%
-    - name: SonarQube
-      level: 87%
-    - name: REST API Design
-      level: 72%
 
 footer: >
   Base template by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
