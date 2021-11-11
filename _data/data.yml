@@ -36,7 +36,7 @@ sidebar:
 
   interests:
     - item: Bouldern und Klettern
-      link:
+      link: https://www.youtube.com/watch?v=Yj7ZCYMgSvw
 
     - item: Raumfahrt und SpaceX
       link: https://www.youtube.com/watch?v=TeVbYCIFVa8
@@ -44,7 +44,7 @@ sidebar:
 career-profile:
   title: Hello there o/
   summary: |
-    Ich bin Maximilian Homann und im Herzen ein Entwickler, aber ich beschränke mich nicht nur auf Code.
+    Ich bin Max und im Herzen ein Softwareentwickler, aber ich beschränke mich nicht nur auf Code.
     Das Gesetz von Conway trifft oft zu und deshalb kann ich es auch nicht lassen, die zugrundeliegenden
     Prozesse der Software und Organisation zu hinterfragen. Ich stehe für vollumfängliche Herangehensweisen und Lösungen.
 
@@ -81,7 +81,7 @@ education:
       zum Programmieren mit anschließendem Praktikum.
 
 experiences:
-  - role: DevOps Engineer
+  - role: DevOps
     time: 2020 - Heute
     company: ITU consult GmbH, Wendhausen
     details: |
@@ -90,7 +90,7 @@ experiences:
       mit dem Ziel die interne Kommunikation effizienter zu gestalten. Mitte 2021 bin ich dann in das Projekt "Firestarter"
       gewechselt, an dem ich bis heute arbeite.
 
-  - role: DevOps Engineer, Buildmanager
+  - role: BizDevOps, Buildmanager
     time: 2018 - 2020
     company: ckc AG (später CGI Deutschland), Braunschweig
     details: |
