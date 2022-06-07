@@ -82,7 +82,7 @@ education:
 
 experiences:
   - role: DevOps
-    time: 2020 - Heute
+    time: 2020 - 2022
     company: ITU consult GmbH, Wendhausen
     details: |
       Bei der ITUC habe ich weiter am Projekt "Funnybones & Lazylegs" gearbeitet (siehe Projekte) und außerdem
@@ -164,7 +164,7 @@ projects:
       die Algorithmen spezifiziert.
 
 skills:
-  title: "Aktuelle Skills"
+  title: "Aktuelle Skills (2022)"
 
   toolset:
     - name: Java 8 & 11
@@ -185,7 +185,7 @@ skills:
       level: 85%
     - name: Bamboo
       level: 75%
-    - name: Der SCRUM Methodenkoffer
+    - name: Der Scrum Methodenkoffer
       level: 75%
     - name: Docsify
       level: 75%
@@ -199,6 +199,8 @@ skills:
       level: 60%
     - name: Ansible
       level: 50%
+    - name: Bash/Sh
+      level: 40%
     - name: MongoDB
       level: 40%
     - name: MariaDB
@@ -213,9 +215,9 @@ skills:
       level: 35%
     - name: Python
       level: 30%
-    - name: Proxmox
-      level: 30%
     - name: Gradle
+      level: 30%
+    - name: Proxmox
       level: 25%
     - name: JavaScript :(
       level: 0%
