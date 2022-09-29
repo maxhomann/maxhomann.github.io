@@ -50,9 +50,9 @@ career-profile:
 
     Offene Wertschätzung und transparente Kommunikation, Fehler nicht zu scheuen sondern zum Lernen zu nutzen und
     besonders Spaß bei der Arbeit sind mir sehr wichtig. Diese Kultur versuche ich zu fördern,
-    indem ich mich eigentständig einbringe, weiterentwickle und motiviere, aber nicht missioniere.
+    indem ich mich eigenständig einbringe, weiterentwickle und motiviere, aber nicht missioniere.
 
-    Mein aktuelles Ziel ist es, Projekte zu entwickeln, die nachhaltig sind und einen tatsächlichen Nutzen für
+    Mein Ziel ist es, Projekte zu entwickeln, die nachhaltig sind und einen tatsächlichen Nutzen für
     Gesellschaft oder Umwelt haben.
 
     Zitate meiner Mitmenschen:
@@ -60,6 +60,7 @@ career-profile:
       - "Du hast nicht nur gute Ideen, du setzt sie auch um." - eine Freundin
       - "Du stellst zu viele Fragen." - ein Projektleiter
       - "Wir können doch nicht einfach direkt auf Production pushen!" - ein Entwickler
+      - "Du bist ein Dickbrettbohrer. Du scheust nicht die schwierigen Wege, wenn sie zur richtigen Lösung führen" - ein Kollege
 
 education:
   - degree: BSc in Computer Science
@@ -81,16 +82,24 @@ education:
       zum Programmieren mit anschließendem Praktikum.
 
 experiences:
-  - role: DevOps
+  - role: Softwareentwickler und Mentor
+    time: 2022 - heute
+    company: pionira GmbH, Braunschweig
+    details: |
+      Seit Beginn meiner Arbeitszeit 2018 wurde es mir immer wichtiger, Software zu entwickeln, welche tatsächlich genutzt wird
+      und mehr als nur einen monetären Nutzen erfüllt. Ich möchte mit Software die Welt nachhaltiger und Anderen ihren Alltag leichter machen.
+      Diese Ideale lebe ich nun bei der pionira aus und helfe als Dienstleister im Projekt "Juicery" einem anderen Unternehmen mit ihrer Software.
+
+  - role: Softwareentwickler
     time: 2020 - 2022
     company: ITU consult GmbH, Wendhausen
     details: |
       Bei der ITUC habe ich weiter am Projekt "Funnybones & Lazylegs" gearbeitet (siehe Projekte) und außerdem
       innerhalb der ersten Monate als zusätzliches Engagement das interne Projekt "Tarantula" begonnen,
       mit dem Ziel die interne Kommunikation effizienter zu gestalten. Mitte 2021 bin ich dann in das Projekt "Firestarter"
-      gewechselt, an dem ich bis heute arbeite.
+      gewechselt, an dem ich bis Anfang 2022 gearbeitet habe.
 
-  - role: BizDevOps, Buildmanager
+  - role: Softwareentwickler, Buildmanager
     time: 2018 - 2020
     company: ckc AG (später CGI Deutschland), Braunschweig
     details: |
@@ -110,6 +119,19 @@ experiences:
       welcher die wahrgenommene Bildschärfe durch geschickte Frame-Versätze erhöhen kann.
 
 projects:
+  - title: Juicery
+    industry: Public Transport
+    tagline: Modernisierung einer Automatenplattform und Aufbau von CI/CD Praktiken
+    details: |
+      Das verteilte System das ich in diesem Projekt weiterentwickle, musste über die Jahre den Wegfall von vielen Know-How Trägern verkraften. 
+      Um das Wissen, die Architekturentscheidungen und die Konzepte wieder aufzudecken, betreiben wir im Team kontinuierlich Architekturarchäologie
+      und bedienen uns dafür an dem Methodenkoffer aim42 und unseren Erfahrungen. Um eine Architekturweiterentwicklung zu ermöglichen,
+      arbeiten wir die Dokumentation auf, etablieren ein Qualitätsmanagement und erstellen eine Buildtoolchain. Außerdem vermitteln 
+      wir Wissen um CI/CD und führen Schrittweise neue Konzepte und Arbeitsmethoden ein.
+      
+      Die Buildtoolchain bzw. die technische Seite von CI und CD wird in Github Enterprise mit Actions bzw. Workflows realisiert.
+      Da das System fast nicht getestet ist, bauen wir zusätzlich gerade Systemtests auf.
+
   - title: Firestarter
     industry: Automotive
     tagline: Verteiltes System mit Single Page Application zur Prozessabbildung der Typzulassung von Fahrzeugen.
@@ -164,7 +186,7 @@ projects:
       die Algorithmen spezifiziert.
 
 skills:
-  title: "Aktuelle Skills (2022)"
+  title: "Technische Skills (2022)"
 
   toolset:
     - name: Java 8 & 11
@@ -173,7 +195,7 @@ skills:
       level: 90%
     - name: Maven
       level: 90%
-    - name: AsciiDoc und PlantUML
+    - name: AsciiDoc, PlantUML, Diagrams.net
       level: 90%
     - name: SonarQube
       level: 90%
@@ -199,6 +221,8 @@ skills:
       level: 60%
     - name: Ansible
       level: 50%
+    - name: Github (Enterprise)
+      level: 45%
     - name: Bash/Sh
       level: 40%
     - name: MongoDB
@@ -215,10 +239,14 @@ skills:
       level: 35%
     - name: Python
       level: 30%
+    - name: JAX-RS
+      level: 30%
     - name: Gradle
       level: 30%
     - name: Proxmox
       level: 25%
+    - name: OSGi
+      level: 20%
     - name: JavaScript :(
       level: 0%
 
