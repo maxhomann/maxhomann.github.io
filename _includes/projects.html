@@ -2,38 +2,37 @@
 {% if projects %}
 <section class="section projects-section">
 
-    <h2 class="section-title">
+  <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
-        Projekte
-    </h2>
+    {{ projects.title }}
+  </h2>
 
-    <div class="intro">
-        <p>Dies sind nennenswerte Projekte, an denen ich in meiner Laufbahn bereits gearbeitet habe. Die
-            Projekttitel sind frei erfunden.</p>
-    </div><!--//intro-->
+  {% if projects.intro %}
+  <div class="intro">
+      <p>{{ projects.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
 
-    {% for project in projects %}
+  {% for project in projects.assignments %}
     <div class="item">
 
-        <div class="meta">
+      <span class="project-title">
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
+      </span>
 
-            <div class="upper-row">
-                <h3 class="project-title">{{ project.title }}</h3>
-                <div class="time">{{ project.industry }}</div>
-            </div><!--//upper-row-->
-
-            <div class="university">{{ project.tagline }}</div>
-        </div><!--//meta-->
-
-        <div class="details">
-            {{ project.details | markdownify }}
-        </div><!--//details-->
+      {% if project.tagline %}
+      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% endif %}
 
     </div><!--//item-->
-    {% endfor %}
+  {% endfor %}
 
 </section><!--//section-->
 {% endif %}
