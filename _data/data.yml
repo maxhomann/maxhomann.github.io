@@ -138,6 +138,17 @@ projects:
     Dies sind nennenswerte Projekte, an denen ich in meiner Laufbahn bereits gearbeitet habe. 
     Die Projekttitel sind frei erfunden.
   assignments:
+    - title: Overheadline
+      industry: Energy
+      tagline: Weiterentwicklung einer Platform für typ-sichere statische Energie und Gasnetzdaten
+      details: |
+        Agile Entwicklung von Microservices basierend auf Spring Boot. Weiterentwicklung der REST APIs und Versionierungskonzepte. 
+        Aufbau von Integrations und Systemtests. Verbesserung der Stabilität und Performance des Systems. 
+        Architekturberatung und Konzepterstellung. Betrieb der Kubernetes Cluster, Neo4j DBs und der Microservices sowie 
+        eines Kubernetes Operators in Azure. Aufbau der Gitlab Buildpipelines und Verbesserung des Continuous Deployments. 
+        Dokumentation der Architektur und Entwicklungsumgebung. Beratung des Product Owners bezüglich neuer Produkt-Anforderungen
+        und deren technischer Umsetzbarkeit.
+
     - title: Juicery
       industry: Public Transport
       tagline: Modernisierung einer Automatenplattform und Aufbau von CI/CD Praktiken
@@ -205,61 +216,59 @@ projects:
         die Algorithmen spezifiziert.
 
 certifications:
-  title: Certifications
+  title: Zertifizierungen
   list:
-    - name: CV Builder
-      start: 2020
-      end: 2021
-      organization: Microsoft
-      credentialid: 111-222
-      credentialurl: www.google.com
-      credentialname: Google
+    - name: AWS Cloud Practitioner
+      start: 2022
+      end:
+      organization: Amazon
+      credentialid:
+      credentialurl: https://aws.amazon.com/de/certification/certified-cloud-practitioner/
+      credentialname:
       details: |
-        Details about cert. Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit.
-        Nullam eget orci purus. Nullam ultrices neque nibh.
-        Aenean fermentum, felis vulputate suscipit accumsan,
-        sem enim bibendum augue, sed convallis arcu lacus at dui.
-        Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-        Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-        Praesent venenatis erat non augue suscipit consectetur.
-        
-        Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-        fringilla vel. Ut euismod, sem sed vulputate venenatis,
-        justo diam viverra velit, sed rhoncus leo leo eu justo.
-        Suspendisse placerat risus ante, sed porta nisi blandit at.
+        Ein AWS Certified Cloud Practitioner hat grundlegende, umfassende Kenntnisse der AWS Cloud, der Services
+        und der Terminologie.
+    - name: Certified Professional for Software Architecture – Foundation Level
+      start: 2025
+      end:
+      organization: iSAQB
+      credentialid:
+      credentialurl: https://www.isaqb.org/de/zertifizierungen/zertifizierungen-uebersicht/cpsa-foundation-level/
+      credentialname:
+      details: |
+        Das CPSA-Foundation Level vermittelt die Fähigkeit, im Team für ordentlich beschriebene Anforderungen und 
+        Systeme bis zu einer mittleren Größe eine angemessene Softwarearchitektur zu entwerfen, zu dokumentieren, 
+        die Qualität zu sichern und zu bewerten sowie die dafür notwendigen Werkzeuge zu kennen.
 
 skills:
-  title: "Technische Skills (2022)"
+  title: "Technische Skills (2025)"
 
   toolset:
-    - name: Java 8 & 11
+    - name: Java 8 & 11 & 21
       level: 95%
     - name: JSON & YAML & CSV & XML
       level: 90%
     - name: Maven
       level: 90%
-    - name: AsciiDoc, PlantUML, Diagrams.net
+    - name: AsciiDoc, Markdown, Mermaid, PlantUML, Diagrams.net
       level: 90%
     - name: SonarQube
       level: 90%
-    - name: Docker
+    - name: Docker & Docker Compose
       level: 85%
     - name: Spring Boot, JPA und MVC
       level: 85%
-    - name: JUnit 4 & 5
+    - name: JUnit 4 & 5 & AssertJ
       level: 85%
-    - name: Bamboo
+    - name: Bamboo, Gitlab CICD
       level: 75%
     - name: Der Scrum Methodenkoffer
       level: 75%
-    - name: Docsify
-      level: 75%
-    - name: Bitbucket
+    - name: Bitbucket, Github & Gitlab
       level: 70%
     - name: REST API Design
       level: 70%
-    - name: Kubernetes
+    - name: Kubernetes, Kustomize, FluxCD
       level: 70%
     - name: Confluence, Jira
       level: 60%
@@ -269,12 +278,12 @@ skills:
       level: 45%
     - name: Bash/Sh
       level: 40%
+    - name: Neo4j DB
+      level: 40%
     - name: MongoDB
       level: 40%
     - name: MariaDB
       level: 40%
-    - name: "C++"
-      level: 35%
     - name: SQL
       level: 35%
     - name: Rabbit MQ
@@ -288,6 +297,8 @@ skills:
     - name: Gradle
       level: 30%
     - name: Proxmox
+      level: 25%
+    - name: "C++"
       level: 25%
     - name: OSGi
       level: 20%
