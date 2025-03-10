@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Softwareentwickler bei der pionira GmbH
+subtitle: Softwareentwickler
 
 profile:
   align: right
