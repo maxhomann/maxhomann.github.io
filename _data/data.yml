@@ -100,9 +100,10 @@ experiences:
       time: 2022 - heute
       company: pionira GmbH, Braunschweig
       details: |
-        Seit Beginn meiner Arbeitszeit 2018 wurde es mir immer wichtiger, Software zu entwickeln, welche tatsächlich genutzt wird
-        und mehr als nur einen monetären Nutzen erfüllt. Ich möchte mit Software die Welt nachhaltiger und Anderen ihren Alltag leichter machen.
-        Diese Ideale lebe ich nun bei der pionira aus und helfe als Dienstleister im Projekt "Juicery" einem anderen Unternehmen mit ihrer Software.
+        Seit meinem ersten Projekt 2018 wurde es mir immer wichtiger, Software zu entwickeln, welche tatsächlich 
+        genutzt wird und mehr als nur einen monetären Nutzen erfüllt. Ich möchte mit Software die Welt
+        nachhaltiger und Anderen ihren Alltag leichter machen. Diese Ideale lebe ich nun bei der pionira aus 
+        und habe bisher als Dienstleister im Projekt "Juicery" und anschließend "Overheadline" gearbeitet.
 
     - role: Softwareentwickler
       time: 2020 - 2022
@@ -149,6 +150,15 @@ projects:
         Dokumentation der Architektur und Entwicklungsumgebung. Beratung des Product Owners bezüglich neuer Produkt-Anforderungen
         und deren technischer Umsetzbarkeit.
 
+    - title: Hosterino
+      industry: Personal Project
+      tagline: Self hosting der eigenen Cloud
+      details: |
+        Ich war auf der Suche nach einer Möglichkeit, meine Fotos ähnlich wie Google Fotos zu hosten, als ich das 
+        Immich Projekt entdeckte. Seitdem hoste ich verschiedene Dienste für mich und meine Freunde zu Hause. 
+        Datenschutz und Systemsicherheit sind mir ebenfalls wichtig, weshalb ich viel Aufwand betreibe, 
+        um meine Dienste zu sichern. 
+
     - title: Juicery
       industry: Public Transport
       tagline: Modernisierung einer Automatenplattform und Aufbau von CI/CD Praktiken
@@ -179,8 +189,8 @@ projects:
       tagline: Bereitstellung von statischen Informationen in einem Intranet.
       details: |
         Um grundlegende Informationen möglichst ohne Hürden oder Aufwand bereitzustellen, habe ich verschiedenste Intranet
-        Frameworks, Content Management Systeme, Website-Builder und -Generators evaluiert und anschließend ein Intranet
-        basierend auf dem Markdown-Renderer Docsify aufgebaut und gehostet. Zusammen mit anderen Mitstreitern haben wir
+        Frameworks, Content Management Systeme, Website-Builder und -Generatoren evaluiert und anschließend ein Intranet
+        basierend auf dem Markdown-Renderer Docsify aufgebaut und gehostet. Zusammen mit Kollegen haben wir
         grundlegende Informationen der internen Angelegenheiten und Prozesse zusammengetragen und dort veröffentlicht.
 
     - title: Automaton
@@ -229,7 +239,7 @@ certifications:
         Ein AWS Certified Cloud Practitioner hat grundlegende, umfassende Kenntnisse der AWS Cloud, der Services
         und der Terminologie.
     - name: Certified Professional for Software Architecture – Foundation Level
-      start: 2025
+      start: 2023
       end:
       organization: iSAQB
       credentialid:
@@ -241,7 +251,20 @@ certifications:
         die Qualität zu sichern und zu bewerten sowie die dafür notwendigen Werkzeuge zu kennen.
 
 skills:
-  title: "Technische Skills (2025)"
+  title: "Skills (2025)"
+  methodical:
+    - name: Unit-, Integrations-, End-to-End- und Systemtesting
+      level: 95%
+    - name: Arc42 & Architecture Decision Records (ADRs)
+      level: 80%
+    - name: Ermittlung von Qualitätszielen nach ISO25010
+      level: 75%
+    - name: Erstellung von Softwarearchitekturkonzepten
+      level: 65%
+    - name: Lightweight Software Architecture Review (LASR)
+      level: 50%
+    - name: Static Application Security Testing (SAST)
+      level: 50%
 
   toolset:
     - name: Java 8 & 11 & 21
@@ -250,58 +273,72 @@ skills:
       level: 90%
     - name: Maven
       level: 90%
-    - name: AsciiDoc, Markdown, Mermaid, PlantUML, Diagrams.net
-      level: 90%
-    - name: SonarQube
+    - name: AsciiDoc, Markdown, Mermaid, PlantUML, Diagrams.net, Excalidraw
       level: 90%
     - name: Docker & Docker Compose
       level: 85%
-    - name: Spring Boot, JPA und MVC
+    - name: Spring, Spring Boot, JPA und MVC
       level: 85%
-    - name: JUnit 4 & 5 & AssertJ
+    - name: JUnit 4 & 5 & AssertJ & Testcontainers
       level: 85%
     - name: Bamboo, Gitlab CICD
       level: 75%
     - name: Der Scrum Methodenkoffer
       level: 75%
-    - name: Bitbucket, Github & Gitlab
+    - name: Bitbucket, Github & Gitlab Environments
+      level: 70%
+    - name: SonarQube, Artifactory, Renovate
       level: 70%
     - name: REST API Design
       level: 70%
     - name: Kubernetes, Kustomize, FluxCD
       level: 70%
+    - name: Bash/Sh
+      level: 70%
+    - name: REST API Design
+      level: 65%
+    - name: Postman, Insomnia, Bruno
+      level: 65%
     - name: Confluence, Jira
       level: 60%
+    - name: Kotlin (2)
+      level: 60%
+    - name: Microsoft Azure (Storage, Entra, Key Vaults, Service Principals, Container Registry, Application Insights)
+      level: 60%
+    - name: Terraform
+      level: 60%
+    - name: Grafana & Prometheus & Loki
+      level: 50%
     - name: Ansible
       level: 50%
-    - name: Github (Enterprise)
+    - name: Go(lang)
       level: 45%
-    - name: Bash/Sh
-      level: 40%
     - name: Neo4j DB
       level: 40%
     - name: MongoDB
       level: 40%
     - name: MariaDB
       level: 40%
+    - name: OKR
+      level: 35%
     - name: SQL
       level: 35%
     - name: Rabbit MQ
-      level: 35%
+      level: 30%
     - name: Redis
-      level: 35%
+      level: 30%
     - name: Python
       level: 30%
     - name: JAX-RS
-      level: 30%
+      level: 25%
     - name: Gradle
-      level: 30%
-    - name: Proxmox
-      level: 25%
-    - name: "C++"
-      level: 25%
-    - name: OSGi
       level: 20%
+    - name: Proxmox
+      level: 20%
+    - name: "C++"
+      level: 20%
+    - name: OSGi
+      level: 15%
     - name: JavaScript :(
       level: 0%
 
